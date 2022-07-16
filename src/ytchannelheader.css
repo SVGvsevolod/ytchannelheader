@@ -1,0 +1,82 @@
+.channel-header-container {
+	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
+	height: 40px;
+	background: rgba(40,40,40,0.8);
+	transition: background ease 0.2s;
+}
+.channel-header-appbar {
+	position: fixed;
+	top: 50px;
+	z-index: 100;
+	background: #fff;
+	border-bottom: 1px solid #e8e8e8;
+}
+.guide-pinned.show-guide .guide-pinning-enabled .channel-header-appbar {
+	padding-left: 231px;
+}
+.channel-header-container .channel-header-content {
+	width: 1233px;
+	height: 24px;
+	margin: 0 auto;
+ 	padding: 8px 15px;
+  	overflow: hidden;
+	position: relative;
+}
+.channel-header-content #channel-title {
+	overflow: hidden;
+ 	display: inline;
+}
+#channel-title .channel-header-avatar {
+	display: inline-block;
+  	float: left;
+	margin-right: 10px;
+  	margin-left: -40px;
+  	transition: all ease 0.2s;
+}
+.channel-header-appbar #channel-title .channel-header-avatar {
+	margin-left: 0;
+}
+#channel-title .branded-page-header-title-link,
+.channel-header-content .epic-nav-item-heading,
+.channel-header-content .yt-uix-button.yt-uix-button-epic-nav-item,
+.channel-header-content .yt-uix-button.yt-uix-button-epic-nav-item .about-channel-link-text {
+	color: #fff;
+	transition: color ease 0.2s;
+}
+.channel-header-content #channel-navigation-menu,
+.channel-header-content #channel-links-menu {
+	display: inline;
+}
+.channel-header-content #channel-navigation-menu {
+	float: left;
+}
+.channel-header-content #channel-links-menu {
+	float: right;
+	margin: 0 10px;
+}
+.channel-header-content #channel-navigation-menu li {
+	float: left;
+  	margin-right: 15px;
+}
+.channel-header-content #channel-links-menu li {
+	display: inline;
+}
+.channel-header-appbar #channel-title .branded-page-header-title-link,
+.channel-header-appbar .epic-nav-item-heading {
+	color: #333;
+}
+.channel-header-appbar .yt-uix-button.yt-uix-button-epic-nav-item,
+.channel-header-appbar .yt-uix-button.yt-uix-button-epic-nav-item .about-channel-link-text {
+	color: #666;
+}
+#channel-links-menu .about-channel-link {
+	margin-top: -3px;
+	padding: 0 4px 6px;
+}
+#channel-links-menu .about-channel-link:hover {
+	padding-bottom: 3px;
+	text-decoration: none;
+}
